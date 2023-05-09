@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: grid;
+}
+.container{
+    background-color: hsl(226, 43%, 10%);
+  
+
+    grid-auto-rows: repeat(2,1fr);
+    border-radius: 5px;
+    text-align: center;
+
+}
+.period{
+    background:  hsl(235, 46%, 20%);
+    padding-top: 45px;
+    border-top: 8px;
+    margin-bottom: 5px;
+    border-top-right-radius: 8px;
+    height: 65vh;
+}
+.explanation{
+   background: aqua;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.inner{
+    text-align: center;
+    
+}
+.book{
+    background: red;
+}
+.main-item{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-row-start: 2;
+   grid-template-rows: repeat(auto auto);
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   justify-content: center;
+   
+   grid: column gap 10px;
+   height: 100vh;
+    grid-gap:1rem;
+    border-radius: 5px;
+
+}
+.item1{
+    grid-row: 1/3;
+    background: hsl(235, 45%, 61%);
+    border-radius:var (--radius);
+    padding-top:var(--padding) ;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    border-bottom: 8px;
+}
+.item2{
+    background:hsl(236, 100%, 87%);
+    border-radius:var (--radius);
+    padding-top:var(--padding) ;
+
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.item3{
+    background: hsl(235, 46%, 20%);
+    border-radius:var (--radius);
+    padding-top:var(--padding) ;
+    border-radius: 5px;
+}
+.item4{
+    background:  hsl(235, 46%, 20%);
+    border-radius:var (--radius);
+    padding-top:var(--padding) ;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+   
+
+}
+.item5{
+    background: hsl(235, 46%, 20%);
+    border-radius:var (--radius);
+    padding-top:var(--padding) ;
+    grid-row-start: 2;
+    border-radius: 5px;
+    
+    
+}
+.item6{
+    background:  hsl(235, 46%, 20%);
+    border-radius:var (--radius);
+    padding-top:var(--padding) ;
+    border-radius: 5px;
+}
+.item7{
+    background:  hsl(235, 46%, 20%);
+    border-radius:var (--radius);
+    padding-top:var(--padding) ;
+    border-radius: 5px;
+}
+.second-square{
+    background: hsl(43, 84%, 65%);
+    width: 100%;
+    border-radius: 7px;
+    height: 10vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 5px;
+    justify-content:flex-end;
+}
+
+.icon-image{
+    display: flex;
+    justify-content: end;
+    height: 85%;
+    
+}
+.words{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.when{
+    padding: 65px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bar{
+
+    background: orangered;
+    width: 100%;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+    height: 8vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 5px;
+    justify-content:flex-end;
+
+
+}
+.bar1{
+
+
+    background:hsl(15, 100%, 70%);
+    width: 100%;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+    height: 8vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 5px;
+    justify-content:flex-end;
+}
+.bar2{
+
+
+    background:  hsl(195, 74%, 62%);
+    width: 100%;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+    height: 8vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 5px;
+    justify-content:flex-end;
+
+
+
+}
+.bar3{
+
+
+    background:  hsl(348, 100%, 68%);
+    width: 100%;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+    height: 8vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 5px;
+    justify-content:flex-end;
+
+
+}
+.bar4{
+    background: hsl(145, 58%, 55%);
+    width: 100%;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+    height: 8vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 5px;
+    justify-content:flex-end;
+}
+.bar5{
+
+    background:hsl(264, 64%, 52%);
+    width: 100%;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+    height: 8vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 5px;
+    justify-content:flex-end;
+}
+.action{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 5px;
+    margin: top 5px;
+    font-size: 23px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-radius: 7px;
+}
+.duration{
+    padding-top: 30px;
+}
+
+
+   
+
+
+
+
+
+
